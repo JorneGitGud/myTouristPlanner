@@ -1,15 +1,17 @@
 const router = require("express").Router();
-const BikeModel = require("../../models/BikeModel");
+const PlaceModel = require("../../models/PlaceModel");
 const { HttpError } = require("../../utils/utils");
 //new
 router.post("/", async (req, res, next) => {
   try {
-    const bike = await BikeModel.create({
-      BikeId: req.body.BikeId,
+    const place = await PlaceModel.create({
+      Name: req.body.Name,
+      Info: req.body.Info,
+      Genre: req.body.Genre,
       X: req.body.X,
       Y: req.body.Y,
     });
-    res.json(bike);
+    res.json(place);
   } catch (error) {
     next(error);
   }
@@ -17,7 +19,7 @@ router.post("/", async (req, res, next) => {
 //get all
 router.get("/", async (req, res, next) => {
   try {
-    const bikes = await BikeModel.find();
+    const place = await PlaceModel.find();
     res.json(bikes);
   } catch (error) {
     next(error);
@@ -26,9 +28,9 @@ router.get("/", async (req, res, next) => {
 //get by id
 router.get("/:id", async (req, res, next) => {
   try {
-    const result = await BikeModel.findById(req.params.id);
+    const result = await PlaceModel.findById(req.params.id);
     if (!result) {
-      return next(new HttpError(404, "Bike not found"));
+      return next(new HttpError(404, "Place not found"));
     }
     res.json(result);
   } catch (error) {
@@ -39,16 +41,18 @@ router.get("/:id", async (req, res, next) => {
 //update
 router.put("/:id", async (req, res, next) => {
   try {
-    const bike = await BikeModel.findOneAndUpdate(
+    const place = await PlaceModel.findOneAndUpdate(
       { _id: req.params.id },
       {
-        BikeId: req.body.BikeId,
+        Name: req.body.Name,
+        Info: req.body.Info,
+        Genre: req.body.Genre,
         X: req.body.X,
         Y: req.body.Y,
       },
       { new: true, useFindAndModify: false } //upsert: true  if you want to add it when none exists
     );
-    res.json(bike);
+    res.json(place);
   } catch (error) {
     next(error);
   }
@@ -57,7 +61,7 @@ router.put("/:id", async (req, res, next) => {
 
 router.delete("/:id", async (req, res, next) => {
   try {
-    const result = await BikeModel.deleteOne({ _id: req.params.id });
+    const result = await PlaceModel.deleteOne({ _id: req.params.id });
     res.json({
       error: false,
       deleted_count: result.deletedCount,

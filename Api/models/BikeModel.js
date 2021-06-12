@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const bikeSchema = new mongoose.Schema({
-  bikeId: Number,
+  BikeId: Number,
   X: Number,
   Y: Number,
 });

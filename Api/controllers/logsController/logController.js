@@ -1,15 +1,16 @@
 const router = require("express").Router();
-const BikeModel = require("../../models/BikeModel");
+const LogModel = require("../../models/LogModel");
 const { HttpError } = require("../../utils/utils");
 //new
 router.post("/", async (req, res, next) => {
   try {
-    const bike = await BikeModel.create({
+    const log = await LogModel.create({
       BikeId: req.body.BikeId,
+      Time: req.body.Time,
       X: req.body.X,
       Y: req.body.Y,
     });
-    res.json(bike);
+    res.json(log);
   } catch (error) {
     next(error);
   }
@@ -17,8 +18,8 @@ router.post("/", async (req, res, next) => {
 //get all
 router.get("/", async (req, res, next) => {
   try {
-    const bikes = await BikeModel.find();
-    res.json(bikes);
+    const logs = await LogModel.find();
+    res.json(logs);
   } catch (error) {
     next(error);
   }
@@ -26,9 +27,9 @@ router.get("/", async (req, res, next) => {
 //get by id
 router.get("/:id", async (req, res, next) => {
   try {
-    const result = await BikeModel.findById(req.params.id);
+    const result = await LogModel.findById(req.params.id);
     if (!result) {
-      return next(new HttpError(404, "Bike not found"));
+      return next(new HttpError(404, "log not found"));
     }
     res.json(result);
   } catch (error) {
@@ -39,16 +40,17 @@ router.get("/:id", async (req, res, next) => {
 //update
 router.put("/:id", async (req, res, next) => {
   try {
-    const bike = await BikeModel.findOneAndUpdate(
+    const log = await LogModel.findOneAndUpdate(
       { _id: req.params.id },
       {
         BikeId: req.body.BikeId,
+        Time: req.body.Time,
         X: req.body.X,
         Y: req.body.Y,
       },
       { new: true, useFindAndModify: false } //upsert: true  if you want to add it when none exists
     );
-    res.json(bike);
+    res.json(log);
   } catch (error) {
     next(error);
   }
@@ -57,7 +59,7 @@ router.put("/:id", async (req, res, next) => {
 
 router.delete("/:id", async (req, res, next) => {
   try {
-    const result = await BikeModel.deleteOne({ _id: req.params.id });
+    const result = await LogModel.deleteOne({ _id: req.params.id });
     res.json({
       error: false,
       deleted_count: result.deletedCount,
