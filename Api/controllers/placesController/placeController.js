@@ -16,19 +16,51 @@ router.post("/", async (req, res, next) => {
     next(error);
   }
 });
-//get all
-router.get("/", async (req, res, next) => {
-  try {
-    const place = await PlaceModel.find();
-    res.json(bikes);
-  } catch (error) {
-    next(error);
-  }
-});
+// //get all
+// router.get("/", async (req, res, next) => {
+//   console.log(req.body.X);
+//   try {
+//     const place = await PlaceModel.find();
+//     res.json(place);
+//   } catch (error) {
+//     next(error);
+//   }
+// });
 //get by id
 router.get("/:id", async (req, res, next) => {
   try {
     const result = await PlaceModel.findById(req.params.id);
+    if (!result) {
+      return next(new HttpError(404, "Place not found"));
+    }
+    res.json(result);
+  } catch (error) {
+    next(error);
+  }
+});
+
+//get by X and Y Json
+router.get("/", async (req, res, next) => {
+  console.log(req.body.X);
+  try {
+    const result = await PlaceModel.findOne({ X: req.body.X, Y: req.body.Y });
+    if (!result) {
+      return next(new HttpError(404, "Place not found"));
+    }
+    res.json(result);
+  } catch (error) {
+    next(error);
+  }
+});
+
+//get by X and Y
+router.get("/:X/:Y", async (req, res, next) => {
+  console.log(req.body.X);
+  try {
+    const result = await PlaceModel.findOne({
+      X: req.params.X,
+      Y: req.params.Y,
+    });
     if (!result) {
       return next(new HttpError(404, "Place not found"));
     }
