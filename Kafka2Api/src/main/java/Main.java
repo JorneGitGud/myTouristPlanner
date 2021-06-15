@@ -1,3 +1,7 @@
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.net.http.HttpClient;
 import java.time.Duration;
 import java.util.Arrays;
@@ -10,15 +14,11 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.time.Duration;
-import java.util.Arrays;
-import java.util.Properties;
-
 
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         //Setup kafka connect
         Logger logger= LoggerFactory.getLogger(Main.class.getName());
@@ -27,7 +27,13 @@ public class Main {
         String topic="bikes";
 
         //setup api connect
-        var client = HttpClient.newHttpClient();
+        URL url = new URL ("http://localhost:5000/logs");
+        HttpURLConnection con = (HttpURLConnection)url.openConnection();
+        con.setRequestMethod("POST");
+        con.setRequestProperty("Content-Type", "application/json; utf-8");
+        con.setRequestProperty("Accept", "application/json");
+        con.setDoOutput(true);
+
 
         //Creating consumer properties
         Properties properties=new Properties();
@@ -43,12 +49,13 @@ public class Main {
         //Subscribing
         consumer.subscribe(Arrays.asList(topic));
 
-        //polling
+        //get and send records
         while(true){
             ConsumerRecords<String,String> records=consumer.poll(Duration.ofMillis(100));
             for(ConsumerRecord<String,String> record: records){
-                logger.info("Key: "+ record.key() + ", Value:" +record.value());
-                logger.info("Partition:" + record.partition()+",Offset:"+record.offset());
+                System.out.println( "this" + record.value());
+
+
             }
         }
     }

@@ -1,8 +1,7 @@
 import java.util.Properties;
-
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-
+import org.json.simple.JSONObject;
 public class Main {
     public static void main(String[] args) {
 
@@ -22,8 +21,12 @@ public class Main {
 
     private static void sendRecord(Properties props, String bikeId, int X, int Y){
 
-        String stringToSend = "{bikeId : " + bikeId + ", X : " + X + ", Y : " + Y + "}";
-        ProducerRecord producerRecord = new ProducerRecord("bikes", "none", stringToSend);
+        JSONObject obj = new JSONObject();
+        obj.put("bikeId", bikeId);
+        obj.put("X", X);
+        obj.put("Y", Y);
+
+        ProducerRecord producerRecord = new ProducerRecord("bikes", "none", obj.toJSONString());
 
         KafkaProducer kafkaProducer = new KafkaProducer(props);
 

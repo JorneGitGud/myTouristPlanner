@@ -6,7 +6,7 @@ router.post("/", async (req, res, next) => {
   try {
     const log = await LogModel.create({
       BikeId: req.body.BikeId,
-      Time: req.body.Time,
+      // Time: req.body.Time,
       X: req.body.X,
       Y: req.body.Y,
     });
