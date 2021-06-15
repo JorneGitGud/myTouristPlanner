@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48e6e75-f7b0-41d2-a84b-3e47a484f693" name="Default Changelist" comment="" />
+    <list default="true" id="6134e406-033b-4c10-b3e0-5ffd1f1261b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +26,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1tznQzE6CLIQKu4Nud5mguWwwu7" />
+  <component name="ProjectId" id="1tzzliLBSGzGO0MWMGfF4guUcn7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +41,18 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="BikeLocationToKafka" />
+      <module name="Kafka2Api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,13 +61,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f48e6e75-f7b0-41d2-a84b-3e47a484f693" name="Default Changelist" comment="" />
-      <created>1623780775028</created>
+      <changelist id="6134e406-033b-4c10-b3e0-5ffd1f1261b1" name="Default Changelist" comment="" />
+      <created>1623786861512</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623780775028</updated>
-      <workItem from="1623780776494" duration="3360000" />
-      <workItem from="1623787150127" duration="141000" />
+      <updated>1623786861512</updated>
+      <workItem from="1623786862978" duration="481000" />
     </task>
     <servers />
   </component>

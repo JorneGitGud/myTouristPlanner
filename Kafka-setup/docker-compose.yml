@@ -32,13 +32,13 @@ services:
 
 #   create topic
 #   @/opt/kafka_2.13-2.7.0 # =>
-#   ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic myTopic
+#   ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic bikes
 
 #   list topic
 #   ./bin/kafka-topics.sh --list --zookeeper zookeeper:2181
 
 #   create consumer
-#   ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic myTopic
+#   ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic bikes
 
 #   tutorial :
 #   https://www.youtube.com/watch?v=WnlX7w4lHvM

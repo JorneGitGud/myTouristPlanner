@@ -23,7 +23,7 @@ public class Main {
     private static void sendRecord(Properties props, String bikeId, int X, int Y){
 
         String stringToSend = "{bikeId : " + bikeId + ", X : " + X + ", Y : " + Y + "}";
-        ProducerRecord producerRecord = new ProducerRecord("Bike", "none", stringToSend);
+        ProducerRecord producerRecord = new ProducerRecord("bikes", "none", stringToSend);
 
         KafkaProducer kafkaProducer = new KafkaProducer(props);
 
