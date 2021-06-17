@@ -3,7 +3,6 @@ const LogModel = require("../../models/LogModel");
 const { HttpError } = require("../../utils/utils");
 //new
 router.post("/", async (req, res, next) => {
-  console.log("here");
   try {
     const log = await LogModel.create({
       BikeId: req.body.BikeId,

@@ -31,7 +31,8 @@ public class Main {
         String topic="bikes";
 
         //setup api connect
-        var uri = new URI("http://localhost:5000/logs/");
+        var logsUri = new URI("http://localhost:5000/logs/");
+        var bikesUri = new URI("http://localhost:5000/bikes/");
         var client = HttpClient.newHttpClient();
 
 
@@ -55,8 +56,13 @@ public class Main {
             for(ConsumerRecord<String,String> record: records) {
                 String bikeObject = record.value();
                 //send to api
-                var request =  HttpRequest.newBuilder(uri).POST(HttpRequest.BodyPublishers.ofString(bikeObject)).header("content-type", "application/json").build();
+                var request =  HttpRequest.newBuilder(logsUri).POST(HttpRequest.BodyPublishers.ofString(bikeObject)).header("content-type", "application/json").build();
                 var response = client.send(request, HttpResponse.BodyHandlers.discarding());
+                System.out.println( response.toString());
+
+                request =  HttpRequest.newBuilder(bikesUri).POST(HttpRequest.BodyPublishers.ofString(bikeObject)).header("content-type", "application/json").build();
+                response = client.send(request, HttpResponse.BodyHandlers.discarding());
+                System.out.println( response.toString());
             }
         }
     }
