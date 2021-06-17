@@ -1,24 +1,28 @@
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.http.HttpClient;
-import java.time.Duration;
-import java.util.Arrays;
-import java.util.Properties;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
+import org.json.simple.parser.JSONParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.time.Duration;
+import java.util.Arrays;
+import java.util.Properties;
 
 
 public class Main {
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
 
         //Setup kafka connect
         Logger logger= LoggerFactory.getLogger(Main.class.getName());
@@ -27,12 +31,8 @@ public class Main {
         String topic="bikes";
 
         //setup api connect
-        URL url = new URL ("http://localhost:5000/logs");
-        HttpURLConnection con = (HttpURLConnection)url.openConnection();
-        con.setRequestMethod("POST");
-        con.setRequestProperty("Content-Type", "application/json; utf-8");
-        con.setRequestProperty("Accept", "application/json");
-        con.setDoOutput(true);
+        var uri = new URI("http://localhost:5000/logs/");
+        var client = HttpClient.newHttpClient();
 
 
         //Creating consumer properties
@@ -52,10 +52,11 @@ public class Main {
         //get and send records
         while(true){
             ConsumerRecords<String,String> records=consumer.poll(Duration.ofMillis(100));
-            for(ConsumerRecord<String,String> record: records){
-                System.out.println( "this" + record.value());
-
-
+            for(ConsumerRecord<String,String> record: records) {
+                String bikeObject = record.value();
+                //send to api
+                var request =  HttpRequest.newBuilder(uri).POST(HttpRequest.BodyPublishers.ofString(bikeObject)).header("content-type", "application/json").build();
+                var response = client.send(request, HttpResponse.BodyHandlers.discarding());
             }
         }
     }
