@@ -5,33 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48e6e75-f7b0-41d2-a84b-3e47a484f693" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__org_json_json_20090211.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api/controllers/bikesController/bikeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/controllers/bikesController/bikeController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api/controllers/logsController/logController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/controllers/logsController/logController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeLocationToKafka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka-setup/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka-setup/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/Kafka2Api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/Kafka2Api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kafka2Api/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/consumer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/consumer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/fietsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../composetest/fietsapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/json.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/leesjsons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/producer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/producer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/royjson.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composetest/royjson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composetest/xeny.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="282">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,12 +152,12 @@
       <workItem from="1624145336139" duration="33000" />
       <workItem from="1624209102768" duration="170000" />
       <workItem from="1624209282296" duration="2000" />
-      <workItem from="1624209417923" duration="3799000" />
+      <workItem from="1624209417923" duration="5286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5520000" />
+    <option name="totallyTimeSpent" value="7007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
@@ -221,8 +207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="282">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

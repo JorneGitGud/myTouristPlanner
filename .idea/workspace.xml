@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6892192e-ec61-45b2-9c86-7ab4f968de01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BikeLocationToKafka/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__org_json_json_20090211.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka2Api/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/controllers/bikesController/bikeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Api/controllers/bikesController/bikeController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/controllers/logsController/logController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Api/controllers/logsController/logController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeLocationToKafka/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeLocationToKafka/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BikeLocationToKafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BikeLocationToKafka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BikeLocationToKafka/BikeLocationToKafka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka-setup/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka-setup/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kafka2Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/Kafka2Api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/Kafka2Api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka2Api/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka2Api/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/consumer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/consumer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/fietsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/composetest/fietsapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/json.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/leesjsons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/producer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/producer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/royjson.json" beforeDir="false" afterPath="$PROJECT_DIR$/composetest/royjson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composetest/xeny.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,18 +177,18 @@
       <option name="presentableId" value="Default" />
       <updated>1624136105789</updated>
       <workItem from="1624136107015" duration="1191000" />
-      <workItem from="1624209629466" duration="1188000" />
+      <workItem from="1624209629466" duration="1782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2379000" />
+    <option name="totallyTimeSpent" value="2973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="763" y="9" width="1313" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -211,7 +197,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

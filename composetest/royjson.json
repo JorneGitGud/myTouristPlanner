@@ -1,32 +1,32 @@
 {
-    "id": 1, "x": 200, "y": 300,"route": [
+    "id": 1, "X": 200, "Y": 300,"route": [
         {
-            "x": 321, "y": 210, "name": "Cars Jeans Stadium", "discription": "stadium of the football a football club", "genre": "Stadium", "status": "open"
+            "X": 321, "Y": 210, "name": "Cars Jeans Stadium", "discription": "stadium of the football a football club", "genre": "Stadium", "status": "open"
         }, 
         {
-        "x": 123, "y": 320, "name": "Reuzenrad", "discription": "Het leukste attractie", "genre": "attractie", "status": "open"
+        "X": 123, "Y": 320, "name": "Reuzenrad", "discription": "Het leukste attractie", "genre": "attractie", "status": "open"
         }, 
         {
-        "x": 244, "y": 120, "name": "Blijdorp", "discription": "Enjoy the animals!", "genre": "Zoo", "status": "closed"
+        "X": 244, "Y": 120, "name": "Blijdorp", "discription": "Enjoy the animals!", "genre": "Zoo", "status": "closed"
         }
     ], 
     "locaties": 
         [
             {
-            "x": 321, "y": 210, "name": "Cars Jeans Stadium", "discription": "stadium of the football a football club", "genre": "Stadium", "status": "open"
+            "X": 321, "Y": 210, "name": "Cars Jeans Stadium", "discription": "stadium of the football a football club", "genre": "Stadium", "status": "open"
             }, 
             {
-            "x": 123, "y": 320, "name": "Reuzenrad", "discription": "Het leukste attractie", "genre": "attractie", "status": "open"
+            "X": 123, "Y": 320, "name": "Reuzenrad", "discription": "Het leukste attractie", "genre": "attractie", "status": "open"
             }, 
             {
-            "x": 244, "y": 120, "name": "Blijdorp", "discription": "Enjoy the animals!"
+            "X": 244, "Y": 120, "name": "Blijdorp", "discription": "Enjoy the animals!"
             ,"genre": "Zoo", "status": "closed"
             }, 
             {
-            "x": 100, "y": 200, "name": "BarX", "discription": "The best local beer in town!", "genre": "Bar", "status": "cosed"
+            "X": 100, "Y": 200, "name": "BarX", "discription": "The best local beer in town!", "genre": "Bar", "status": "cosed"
             }, 
             {
-            "x": 132, "y": 132, "name": "Kijkduin", "discription": "Enjoy the boulevard", "genre": "Boulevard", "status": "open"
+            "X": 132, "Y": 132, "name": "Kijkduin", "discription": "Enjoy the boulevard", "genre": "Boulevard", "status": "open"
             }
         ]
 }
