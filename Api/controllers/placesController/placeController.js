@@ -17,15 +17,15 @@ router.post("/", async (req, res, next) => {
   }
 });
 // //get all
-// router.get("/", async (req, res, next) => {
-//   console.log(req.body.X);
-//   try {
-//     const place = await PlaceModel.find();
-//     res.json(place);
-//   } catch (error) {
-//     next(error);
-//   }
-// });
+router.get("/", async (req, res, next) => {
+  console.log(req.body.X);
+  try {
+    const place = await PlaceModel.find();
+    res.json(place);
+  } catch (error) {
+    next(error);
+  }
+});
 //get by id
 router.get("/:id", async (req, res, next) => {
   try {
