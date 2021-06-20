@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c84ae3-c1af-4d2a-a045-8b9b054b76a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6134e406-033b-4c10-b3e0-5ffd1f1261b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BikeLocationToKafka/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Kafka2Api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BikeLocationToKafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeLocationToKafka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/consumer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/consumer2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/fietsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../composetest/fietsapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/json.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/leesjsons.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/producer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/producer2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/royjson.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composetest/royjson.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composetest/xeny.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeLocationToKafka/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeLocationToKafka/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeLocationToKafka/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeLocationToKafka/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,10 +103,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="width" value="1779" />
-    <option name="height" value="1056" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,15 +155,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624209384925" />
-    <property name="last_opened_file_path" value="C:/SchoolPrograms/Java/json-simple-1.1.1.jar!/" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BikeLocationToKafka" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,11 +186,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -179,11 +196,11 @@
       <created>1624141593552</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624141593552</updated>
-      <workItem from="1624141594763" duration="3149000" />
-      <workItem from="1624209079582" duration="206000" />
-      <workItem from="1624209306806" duration="81000" />
-      <workItem from="1624209405647" duration="6755000" />
+      <updated>1623786861512</updated>
+      <workItem from="1623786862978" duration="5588000" />
+      <workItem from="1623932606925" duration="3275000" />
+      <workItem from="1623944626881" duration="4105000" />
+      <workItem from="1624202461189" duration="587000" />
     </task>
     <servers />
   </component>
@@ -227,122 +244,45 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kafka2Api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Kafka2Api</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.github.luben:zstd-jni:1.3.5-4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="2466" y="246" key="FileChooserDialogImpl" timestamp="1624210285578">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2466" y="246" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624210285578" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1624216403446">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624216403446" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1624216403446">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624216403446" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1624216403446">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624216403445" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1624216403446">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624216403446" />
+    <state x="2240" y="79" key="SettingsEditor" timestamp="1624209648859">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2240" y="79" key="SettingsEditor/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624209648859" />
+    <state x="2466" y="238" width="587" height="534" key="find.popup" timestamp="1624210783237">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2466" y="238" width="587" height="534" key="find.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624210783237" />
   </component>
 </project>

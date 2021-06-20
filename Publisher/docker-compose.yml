@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  zookeeper:
+  zookeper:
     image: wurstmeister/zookeeper
     container_name: zookeeper
     ports:
@@ -20,7 +20,7 @@ services:
 
   python:
     container_name: python_container
-    image: "redis:alpine"
+    image: python:3.10.0b1-alpine3.13
     stdin_open: true
     tty: true
     build:
@@ -28,7 +28,7 @@ services:
         dockerfile: pyDocker
     depends_on:
         - kafka
-        - zookeeper
+        - zookeper
 #   start kafka and zookeeper
 #   docker-compose -f docker-compose.yml up -d
 

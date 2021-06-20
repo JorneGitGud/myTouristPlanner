@@ -1,17 +1,9 @@
-# pip install python-kafka
-# pip install pandas
-# pip install numpy
-# pip install requests
-# pip install pprintjson
-
 # inport
 import json
 from kafka import KafkaConsumer,KafkaProducer
 import requests
 import pandas as pd 
 import numpy as np
-from pprint import pprint
-
 
 # create bike class
 class BikeRoute:
@@ -62,31 +54,20 @@ for message in consumer:
 
     #giving distance "weigth" to calculate from root
     df['distance'] = np.where(df['location']> df['weight'], df['location'] - df['weight'] ,df['weight'] - df['location'])
-
-    # making boolean series for a team name
-#     filter = df["status"]=="open"
     
-    # filtering data
-#     df.where(filter, inplace = True)
-
-    print(df)
     # sort on distance
     df = df.sort_values(by=['distance'])
-
-    print(df)
 
     df.drop(['distance'], axis=1, inplace=True)
     df.drop(['weight'], axis=1, inplace=True)
     df.drop(['location'], axis=1, inplace=True)
-    # df.drop(['__id'], axis=1, inplace=True)
-
-
-
 
     # dataframe to json format
+
+    # adviced location
     routeArray = df.head(1).to_json(orient='records')
 
-    
+    # top 3 of locations nearby
     locationArray = df.head(3).to_json(orient='records')
 
     # convert to json 
@@ -95,14 +76,9 @@ for message in consumer:
     
     # new Bike object
     current = BikeRoute(id,X,Y,ra,la)
+
     # route object from bike json format
     bikeRoute = json.dumps(current.__dict__)
-
-    print(bikeRoute)
-    pprint(json.loads(bikeRoute))
     
     #send bike, route and locations to route topic
     producer.send('route',bikeRoute.encode('utf-8'))
-
-
-

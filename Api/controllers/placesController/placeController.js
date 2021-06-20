@@ -16,7 +16,8 @@ router.post("/", async (req, res, next) => {
     next(error);
   }
 });
-//get all
+
+// //get all
 router.get("/", async (req, res, next) => {
   console.log(req.body.X);
   try {

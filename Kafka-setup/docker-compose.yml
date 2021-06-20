@@ -32,9 +32,12 @@ services:
 #   cd opt
 #   cd kafka
 
-#   create topic
+#   create topics
 #   @/opt/kafka_2.13-2.7.0 # =>
 #   ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic logs
+#   ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic bikes
+#   ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic places
+#   ./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic route
 
 #   list topic
 #   ./bin/kafka-topics.sh --list --zookeeper zookeeper:2181

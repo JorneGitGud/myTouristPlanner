@@ -10,7 +10,6 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -64,6 +63,9 @@ public class Main {
                 request =  HttpRequest.newBuilder(bikesUri).POST(HttpRequest.BodyPublishers.ofString(bikeObject)).header("content-type", "application/json").build();
                 response = client.send(request, HttpResponse.BodyHandlers.discarding());
                 System.out.println( response.toString());
+
+                System.out.println(request.toString());
+
             }
         }
     }
