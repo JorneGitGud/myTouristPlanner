@@ -12,12 +12,12 @@ public class Main {
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
         sendRecord(properties, "1", 3,4);
-        sendRecord(properties, "1", 4,4);
-        sendRecord(properties, "1", 3,4);
-        sendRecord(properties, "1", 2,4);
-        sendRecord(properties, "1", 2,3);
-        sendRecord(properties, "1", 2,2);
-        sendRecord(properties, "1", 2,1);
+//        sendRecord(properties, "1", 4,4);
+//        sendRecord(properties, "1", 3,4);
+//        sendRecord(properties, "1", 2,4);
+//        sendRecord(properties, "1", 2,3);
+//        sendRecord(properties, "1", 2,2);
+//        sendRecord(properties, "1", 2,1);
     }
 
     private static void sendRecord(Properties props, String bikeId, int X, int Y){
@@ -25,6 +25,7 @@ public class Main {
         JSONObject obj = new JSONObject();
         obj.put("BikeId", bikeId);
         obj.put("X", X);
+
         obj.put("Y", Y);
 
         ProducerRecord producerRecord = new ProducerRecord("bikes", "none", obj.toJSONString());
