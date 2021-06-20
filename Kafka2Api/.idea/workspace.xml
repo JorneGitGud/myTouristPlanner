@@ -37,7 +37,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
+            <state relative-caret-position="76">
               <caret line="29" column="36" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -183,16 +183,15 @@
       <workItem from="1624141594763" duration="3149000" />
       <workItem from="1624209079582" duration="206000" />
       <workItem from="1624209306806" duration="81000" />
-      <workItem from="1624209405647" duration="6162000" />
+      <workItem from="1624209405647" duration="6755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9598000" />
+    <option name="totallyTimeSpent" value="10191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="0" width="1779" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24179432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -203,7 +202,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1744312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1744312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -250,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
+        <state relative-caret-position="76">
           <caret line="29" column="36" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
