@@ -56,6 +56,7 @@ public class Main {
             for(ConsumerRecord<String,String> record: records) {
                 String bikeObject = record.value();
                 //send to api
+                System.out.println("value"+record.value());
                 var request =  HttpRequest.newBuilder(logsUri).POST(HttpRequest.BodyPublishers.ofString(bikeObject)).header("content-type", "application/json").build();
                 var response = client.send(request, HttpResponse.BodyHandlers.discarding());
                 System.out.println( response.toString());

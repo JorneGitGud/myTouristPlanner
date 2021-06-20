@@ -1,0 +1,46 @@
+{
+    "locaties": [
+        {
+            "descriptie": "eerste locatie",
+            "genre":"attracite",
+            "name":"kannon koffie",
+            "X": 1,
+            "Y": 2
+        },
+        {
+            "descriptie": "tweede locatie",
+            "genre":"attracite",
+            "name":"kannon koffie",
+            "X": 2,
+            "Y": 2
+        },
+        {
+            "descriptie": "derde locatie",
+            "genre":"attracite",
+            "name":"kannon koffie",
+            "X": 3,
+            "Y": 2
+        },
+        {
+            "descriptie": "vierde locatie",
+            "genre":"attracite",
+            "name":"kannon koffie",
+            "X": 3,
+            "Y": 4
+        },
+        {
+            "descriptie": "vijfde locatie",
+            "genre":"attracite",
+            "name":"kannon koffie",
+            "X": 3,
+            "Y": 5
+        },
+        {
+            "descriptie": "zesde locatie",
+            "genre":"attracite",
+            "name":"kannon koffie",
+            "X": 2,
+            "Y": 2
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+flask
+redis
+bson
+kafka
+time

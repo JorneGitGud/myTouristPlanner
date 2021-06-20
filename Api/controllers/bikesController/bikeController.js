@@ -3,6 +3,7 @@ const BikeModel = require("../../models/BikeModel");
 const { HttpError } = require("../../utils/utils");
 //new
 router.post("/", async (req, res, next) => {
+  console.log("Bikes")
   try {
     const bike = await BikeModel.create({
       BikeId: req.body.BikeId,
