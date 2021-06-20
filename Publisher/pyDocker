@@ -1,0 +1,10 @@
+FROM python:3
+
+WORKDIR /user/src/app
+
+COPY requirement.txt ./
+RUN pip3 install -r requirement.txt
+
+COPY . . 
+
+CMD [ "python", "./main.py"]

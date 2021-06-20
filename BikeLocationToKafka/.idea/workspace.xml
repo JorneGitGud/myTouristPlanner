@@ -3,8 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48e6e75-f7b0-41d2-a84b-3e47a484f693" name="Default Changelist" comment="" />
+    <list default="true" id="f48e6e75-f7b0-41d2-a84b-3e47a484f693" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/Kafka2Api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kafka2Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kafka2Api/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kafka2Api/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kafka2Api/target/classes/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +52,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -35,11 +71,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program Files/Java/json-simple-1.1.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files/Java/json-simple-1.1.1.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -70,5 +107,50 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2466" y="246" key="FileChooserDialogImpl" timestamp="1624210854098">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2466" y="246" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624210854098" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1624215588151">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624215588151" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1624215588150">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624215588150" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1624215588150">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624215588150" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1624215588150">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624215588150" />
+    <state x="2290" y="159" key="Maven.ArtifactSearchDialog" timestamp="1624210402734">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2290" y="159" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624210402734" />
+    <state x="2240" y="79" key="SettingsEditor" timestamp="1624210441439">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2240" y="79" key="SettingsEditor/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624210441439" />
+    <state x="2466" y="238" width="587" height="534" key="find.popup" timestamp="1624210793102">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2466" y="238" width="587" height="534" key="find.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1624210793102" />
   </component>
 </project>
