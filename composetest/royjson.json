@@ -1,0 +1,32 @@
+{
+    "id": 1, "X": 200, "Y": 300,"route": [
+        {
+            "X": 321, "Y": 210, "name": "Cars Jeans Stadium", "discription": "stadium of the football a football club", "genre": "Stadium", "status": "open"
+        }, 
+        {
+        "X": 123, "Y": 320, "name": "Reuzenrad", "discription": "Het leukste attractie", "genre": "attractie", "status": "open"
+        }, 
+        {
+        "X": 244, "Y": 120, "name": "Blijdorp", "discription": "Enjoy the animals!", "genre": "Zoo", "status": "closed"
+        }
+    ], 
+    "locaties": 
+        [
+            {
+            "X": 321, "Y": 210, "name": "Cars Jeans Stadium", "discription": "stadium of the football a football club", "genre": "Stadium", "status": "open"
+            }, 
+            {
+            "X": 123, "Y": 320, "name": "Reuzenrad", "discription": "Het leukste attractie", "genre": "attractie", "status": "open"
+            }, 
+            {
+            "X": 244, "Y": 120, "name": "Blijdorp", "discription": "Enjoy the animals!"
+            ,"genre": "Zoo", "status": "closed"
+            }, 
+            {
+            "X": 100, "Y": 200, "name": "BarX", "discription": "The best local beer in town!", "genre": "Bar", "status": "cosed"
+            }, 
+            {
+            "X": 132, "Y": 132, "name": "Kijkduin", "discription": "Enjoy the boulevard", "genre": "Boulevard", "status": "open"
+            }
+        ]
+}
